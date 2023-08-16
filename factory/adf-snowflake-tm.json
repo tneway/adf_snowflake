@@ -1,0 +1,9 @@
+{
+	"name": "adf-snowflake-tm",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c6bd7f65-c9be-4dea-9b1c-3ce25dd1d4a4",
+		"tenantId": "7978314c-4870-443c-b2d6-256b3d7dff6e"
+	}
+}

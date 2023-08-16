@@ -1,0 +1,47 @@
+{
+	"name": "SnowflakeTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeTable",
+		"schema": [
+			{
+				"name": "CUSTOMERID",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "GENRE",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "AGE",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "ANNUAL_INCOME",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "SPENDING_SCORE",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "DBO",
+			"table": "MALL_CUSTOMERS"
+		}
+	}
+}
